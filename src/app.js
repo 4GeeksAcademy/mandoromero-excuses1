@@ -1,14 +1,3 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
 let img = document.getElementById("img");
 let pics = [
   "https://www.science.org/do/10.1126/science.aav0458/abs/0808_dogPee_16x9.jpg",

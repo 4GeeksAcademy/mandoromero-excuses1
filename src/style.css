@@ -1,15 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-let img = document.getElementById("img");
-let pics = [
-  "https://www.science.org/do/10.1126/science.aav0458/abs/0808_dogPee_16x9.jpg",
-  "https://www.science.org/do/10.1126/science.aav0458/abs/0808_dogPee_16x9.jpg?w=5",
-  "https://t3.ftcdn.net/jpg/02/39/42/00/360_F_239420088_yOXhuDymb8IBbggLrv8j8YZkICw934br.jpg",
-  "https://people.com/thmb/6KHcx7O0J3Gwubg8b_c05YmnWdU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/tmnt2-ff-003-2000-e2e7c744347046e8b4de53b25cdd2b00.jpg",
-  "https://clipart-library.com/newhp/venus-raphael-leonardo-michelangelo-teenage-mutant-ninja-turtles-tmnt.jpg",
-  "https://t3.ftcdn.net/jpg/03/49/32/28/360_F_349322868_pnh7gwrSXKmbCuu6ebDPjUjRi8QQ6uJm.jpg"
-];
-let who = ["The dog", "My grandma", "His turtle", "My bird"];
-@@ -31,6 +31,7 @@ window.onload = function() {
+let who = ["The dog", "My grandma", "The Mailman", "My bird"];
 let whatR = what[Math.floor(Math.random() * what.length)];
 let whenR = when[Math.floor(Math.random() * when.length)];
 img.src = picsR;
